@@ -1,15 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 26 17:55:38 2022
 
-@author: U0035488
 """
+Author: Nouha Samlani
 
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
+Requirements: pytesseract, regex, por.traindata included in the tesseract installed folder
+Files: Folder of images of teh year 2004
 """
  
 
@@ -20,7 +14,7 @@ import os
 import re
 import pandas as pd
 from pytesseract import Output
-#import easyocr
+
 
 import time
  
@@ -28,8 +22,8 @@ import time
 start = time.time()
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
-#reader = easyocr.Reader(["pt"],gpu=False)
-folder = r"E:/Nouha_forms/300dpi_images/Registry2004_300dpi"
+
+folder = r"path of the folder"
 year = "2004"
 
 forms_list = os.listdir(folder)
@@ -47,7 +41,7 @@ img = cv2.resize(img,(0,0),fx=1,fy=1)
 for i,r in enumerate(roi):
     cv2.rectangle(img,(r[0][0],r[0][1]),(r[1][0],r[1][1]),(0,255,0),2)
     
-cv2.imwrite(f'E:/Nouha_forms/Output_300dpi/Checking_box/Detected_Textboxes_{year}_300dpi.jpg',img)
+cv2.imwrite(f'Detected_Textboxes_{year}_300dpi.jpg',img)
 
 myData = []
 #
@@ -95,5 +89,5 @@ print("The time of execution of above program is :",(end-start) * 10**3, "ms")
 # Create the pandas DataFrame
 data_text = pd.DataFrame(myData, columns = ['FormNb', 'Company Name','Company Name_prob','Address','Address_probs',
                                             'Classification','Classification_probs'])
-data_text.to_excel(f'E:/Nouha_forms/Output_300dpi/por_Data_text_{year}_300dpi_nbs_text_FINAL.xlsx')
+data_text.to_excel(f'por_Data_text_{year}_300dpi_nbs_text_FINAL.xlsx')
 
