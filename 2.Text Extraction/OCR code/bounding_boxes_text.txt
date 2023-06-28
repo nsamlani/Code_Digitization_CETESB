@@ -15,7 +15,7 @@ roi2008 = [[(39, 102), (770, 120), 'text', 'Company Name'],
        [(471, 156), (584, 173), 'text', 'Coordinates.UTM_N'], 
        [(115, 173), (617, 190), 'text', 'Classification']]
 
-2009-2010 ==> 
+2009-2010  
 
 roi2009-10 = [[(39, 101), (770, 120), 'text', 'Company Name'], 
         [(40, 124), (770, 139), 'text', 'Address'],
@@ -27,7 +27,7 @@ roi2009-10 = [[(39, 101), (770, 120), 'text', 'Company Name'],
 
 
 
-2011 ==> Reuse
+2011 
 roi2011 =[[(39, 101), (770, 120), 'text', 'Company Name'],
       [(40, 124), (770, 139), 'text', 'Address'],
       [(114, 161), (611, 177), 'text', 'Classification']]
