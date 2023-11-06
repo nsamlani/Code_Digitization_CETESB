@@ -1,0 +1,57 @@
+2004-2007 ==> No coords
+
+roi2007 = [[(39, 101), (770, 120), 'text', 'Company Name'],
+      [(40, 124), (770, 139), 'text', 'Address'],
+      [(113, 159), (771, 183), 'text', 'Classification']]
+
+
+2008 ==> coords
+
+roi2008 = [[(39, 102), (770, 120), 'text', 'Company Name'],
+       [(39, 120), (771, 135), 'text', 'Address'], 
+       [(135, 151), (194, 171), 'text', 'Coordinates.Fuse'],
+       [(236, 153), (323, 171), 'text', 'Coordinates.Datum'], 
+       [(361, 154), (430, 170), 'text', 'Coordinates.UTM_E'], 
+       [(471, 156), (584, 173), 'text', 'Coordinates.UTM_N'], 
+       [(115, 173), (617, 190), 'text', 'Classification']]
+
+2009-2010  
+
+roi2009-10 = [[(39, 101), (770, 120), 'text', 'Company Name'], 
+        [(40, 124), (770, 139), 'text', 'Address'],
+        [(134, 156), (194, 176), 'text', 'Coordinates.UTMFuse'],
+        [(236, 159), (321, 175), 'text', 'Coordinates.Datum'], 
+        [(362, 158), (430, 175), 'text', 'Coordinates.UTM_E'], 
+        [(469, 159), (575, 176), 'text', 'Coordinates.UTM_N'],
+        [(114, 178), (616, 195), 'text', 'Classification']]
+
+
+
+2011 
+roi2011 =[[(39, 101), (770, 120), 'text', 'Company Name'],
+      [(40, 124), (770, 139), 'text', 'Address'],
+      [(114, 161), (611, 177), 'text', 'Classification']]
+
+
+
+roi2013 = [[(39, 82), (771, 104), 'text', 'Company Name'], 
+           [(39, 104), (772, 120), 'text', 'Address'], 
+           [(136, 136), (195, 156), 'text', 'Coordinates.Fuse'],
+           [(235, 135), (322, 156), 'text', 'Coordinates.Datum'], 
+           [(361, 135), (430, 155), 'text', 'Coordinates.UTM_E'], 
+           [(469, 137), (572, 157), 'text', 'Coordinates.UTM_N'], 
+           [(114, 156), (617, 174), 'text', 'Classification']]
+
+
+2014 - 2015 - 2020
+
+roi = [[(362, 158), (430, 175), 'text', 'Coordinates.UTM_E'], 
+        [(469, 159), (575, 176), 'text', 'Coordinates.UTM_N'],
+[(39, 101), (770, 120), 'text', 'Company Name'], 
+[(40, 124), (770, 139), 'text', 'Address'],
+[(134, 156), (194, 176), 'text', 'Coordinates.UTMFuse'],
+[(236, 159), (321, 175), 'text', 'Coordinates.Datum'], 
+[(114, 178), (616, 195), 'text', 'Classification']
+
+
+
